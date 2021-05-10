@@ -1,0 +1,34 @@
+[
+    {
+        "prompt": "Hi Tendo, on a scale of 1-10, would you recommend Dr Careful to a friend or family member? 1 = Would not recommend, 10 = Would strongly recommend",
+        "answer": "6",
+        "followUp": {
+            "prompt": "",
+            "answer": ""
+        }
+    },
+    {
+        "prompt": "Thank you. You were diagnosed with Diabetes without complications. Did Dr Careful explain how to manage this diagnosis in a way you could understand?",
+        "answer": "no",
+        "followUp": {
+            "prompt": "What can we do to better explain your diagnosis: Diabetes without complications?",
+            "answer": "doh"
+        }
+    },
+    {
+        "prompt": "What steps did Dr. Careful give you to do with your diagnosis of Diabetes without complications?",
+        "answer": "ray",
+        "followUp": {
+            "prompt": "",
+            "answer": ""
+        }
+    },
+    {
+        "prompt": "We appreciate the feedback, one last question: how do you feel about being diagnosed with Diabetes without complications?",
+        "answer": "me",
+        "followUp": {
+            "prompt": "",
+            "answer": ""
+        }
+    }
+]

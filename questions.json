@@ -1,0 +1,40 @@
+{
+    "questions": [
+        {
+            "prompt": "Hi {{.FirstName}}, on a scale of 1-10, would you recommend Dr {{.DoctorName}} to a friend or family member? 1 = Would not recommend, 10 = Would strongly recommend",
+            "promptNeedsTemplate": true,
+            "promptType": "scale",
+            "yesFollowPrompt": "",
+            "yesFollowPromptNeedsTemplate": false,
+            "noFollowPrompt": "",
+            "noFollowPromptNeedsTemplate": false
+        },
+        {
+            "prompt": "Thank you. You were diagnosed with {{.Diagnosis}}. Did Dr {{.DoctorName}} explain how to manage this diagnosis in a way you could understand?",
+            "promptNeedsTemplate": true,
+            "promptType": "yes/no",
+            "yesPrompt": "We are glad you got all the information you need from {{.Diagnosis}}, what other questions do you have?",
+            "yesPromptNeedsTemplate": true,
+            "noPrompt": "What can we do to better explain your diagnosis: {{.Diagnosis}}?",
+            "noPromptNeedsTemplate": true
+        },
+        {
+            "prompt": "What steps did Dr. {{.DoctorName}} give you to do with your diagnosis of {{.Diagnosis}}?",
+            "promptNeedsTemplate": true,
+            "promptType": "text",
+            "yesFollowPrompt": "",
+            "yesFollowPromptNeedsTemplate": false,
+            "noFollowPrompt": "",
+            "noFollowPromptNeedsTemplate": false
+        },
+        {
+            "prompt": "We appreciate the feedback, one last question: how do you feel about being diagnosed with {{.Diagnosis}}?",
+            "promptNeedsTemplate": true,
+            "promptType": "text",
+            "yesFollowPrompt": "",
+            "yesFollowPromptNeedsTemplate": false,
+            "noFollowPrompt": "",
+            "noFollowPromptNeedsTemplate": false
+        }
+    ]
+}
